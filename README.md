@@ -15,11 +15,16 @@ The goal of this project is to build an end-to-end machine learning pipeline tha
 
 ---
 
-## 📂 Project Structure
+## 📂 File Structure
 
-- `part1_cnn_from_scratch/` — Custom-built CNN trained from scratch with Streamlit deployment.
-- `part2_transfer_learning_quantization/` — Transfer learning with EfficientNet, model quantization, and Streamlit deployment.
-- `part3_style_transfer/` — Image style transfer for yoga pose images.
+- `EDA_and_CNN_from_scratch.ipynb` — Custom-built CNN trained from scratch with Streamlit deployment.
+- `EfficientNet_and_YOLO.ipynb` — Transfer learning with EfficientNet, model quantization, and Streamlit deployment.
+- `StyleTransfer.ipynb` — Image style transfer for yoga pose images.
+- `image_search` — Image-based search app built with Streamlit and Qdrant. The app allows users to search for similar images in the yoga dataset using a provided query image.
+- `tflite` — Quantized TFlite files for the two models.
+- `yoga_webapp_hirastanley.py` — Run Streamlit app.
+- `yoga-poses-english.txt` — Translation reference for traditional yoga pose names to English.
+- `Screenshots_HiraStanley_WebApp.pdf` — Screenshots of the Streamlit app if you don't want to run it yourself!
 
 ---
 
